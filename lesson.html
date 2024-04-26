@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    li::before{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("right-arrow.png");
+        background-size: cover;
+    }
+    #winter li::before{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("snow.png");
+        background-size: cover;
+    }
+    #spring li::before{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("rose.png");
+        background-size: cover;
+    }
+    #summer li::before{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("watermelon.png");
+        background-size: cover;
+    }
+    #autum li::before{
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url("maple-leaf.png");
+        background-size: cover;
+    }
+ul{
+    list-style: none;
+}
+ol{
+    list-style-type: none;
+}
+</style>
+</head>
+<body>
+    <b>Seasons</b>
+    <ul>
+        <li>Winter</li>
+        
+            <ol id="winter">
+            <li>December</li>
+            <li>January</li>
+            <li>February</li>
+        </ol>
+        
+        
+        <li>Spring</li>
+        
+            <ol id="spring">
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+        </ol>
+        
+        <li>Summer</li>
+        
+            <ol id="summer">
+            <li>June</li>
+            <li>July</li>
+            <li>August</li>
+        </ol>
+        
+        <li>Autumn</li>
+        
+            <ol id="autum">
+            <li>September</li>
+            <li>October</li>
+            <li>November</li>
+        </ol>
+        
+        
+    </ul>
+    <ol>
+        <li>apple</li>
+        <li>pear</li>
+        <li>banana</li>
+        <li>pineapple</li>
+    </ol>
+</body>
+</html>
